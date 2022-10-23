@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 
 namespace dotnet_rpg.Dtos.Character
 {
-    public class AddCharacterDto
-    {
+  public class AddCharacterDto
+  {
 
-        public string Name {get; set;} = "Toby";
-        public int Hitpoints {get; set;} = 100;
+    public string Name { get; set; } = "Toby";
+    public int Hitpoints { get; set; } = 100;
 
-        public int Strength {get; set;} = 10;
+    public int Strength { get; set; } = 10;
 
-        public int Defense {get; set;} = 10;
+    public int Defense { get; set; } = 10;
 
-        public int Intelligence {get; set;} = 100; 
+    public int Intelligence { get; set; } = 100;
 
-        public RpgClass Class {get; set;} = RpgClass.Mage;
-    }
+    public RpgClass Class { get; set; } = RpgClass.Mage;
+  }
 }

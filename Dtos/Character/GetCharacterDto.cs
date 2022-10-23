@@ -5,21 +5,21 @@ using System.Threading.Tasks;
 
 namespace dotnet_rpg.Dtos.Character
 {
-    public class GetCharacterDto
-    {
-         
+  public class GetCharacterDto
+  {
 
-        public int Id {get; set; }
 
-        public string Name {get; set;} = "Toby";
-        public int Hitpoints {get; set;} = 100;
+    public int Id { get; set; }
 
-        public int Strength {get; set;} = 10;
+    public string Name { get; set; } = "Toby";
+    public int Hitpoints { get; set; } = 100;
 
-        public int Defense {get; set;} = 10;
+    public int Strength { get; set; } = 10;
 
-        public int Intelligence {get; set;} = 100; 
+    public int Defense { get; set; } = 10;
 
-        public RpgClass Class {get; set;} = RpgClass.Mage;
-    }
+    public int Intelligence { get; set; } = 100;
+
+    public RpgClass Class { get; set; } = RpgClass.Mage;
+  }
 }
