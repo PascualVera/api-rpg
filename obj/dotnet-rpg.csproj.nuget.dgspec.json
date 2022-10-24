@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pascu\\Desktop\\dotnet-rpg\\dotnet-rpg.csproj": {}
+    "C:\\Users\\Pascual.Vera\\projects\\net\\api-rpg\\dotnet-rpg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pascu\\Desktop\\dotnet-rpg\\dotnet-rpg.csproj": {
+    "C:\\Users\\Pascual.Vera\\projects\\net\\api-rpg\\dotnet-rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pascu\\Desktop\\dotnet-rpg\\dotnet-rpg.csproj",
+        "projectUniqueName": "C:\\Users\\Pascual.Vera\\projects\\net\\api-rpg\\dotnet-rpg.csproj",
         "projectName": "dotnet-rpg",
-        "projectPath": "C:\\Users\\pascu\\Desktop\\dotnet-rpg\\dotnet-rpg.csproj",
-        "packagesPath": "C:\\Users\\pascu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pascu\\Desktop\\dotnet-rpg\\obj\\",
+        "projectPath": "C:\\Users\\Pascual.Vera\\projects\\net\\api-rpg\\dotnet-rpg.csproj",
+        "packagesPath": "C:\\Users\\Pascual.Vera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pascual.Vera\\projects\\net\\api-rpg\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pascu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Pascual.Vera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +45,8 @@
               "version": "[12.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
             },
@@ -67,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
